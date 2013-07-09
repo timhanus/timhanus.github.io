@@ -25,8 +25,8 @@ bing_verify:        D81F4C18A6CB3018F64D7C827D953DFD
 # Links to include in top navigation
 # For external links add external: true
 links:
-#  - title: About
-#    url: /about
+  - title: Resume
+    url: /resume
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/Central
