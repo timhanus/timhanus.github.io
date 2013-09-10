@@ -1,79 +1,146 @@
-Tim Hanus
----------
-timhanus@gmail.com
+# Tim Hanus
+## Director of Software Development
 
-5661 Oak Blvd,
-Austin TX, 78735
+> [Download PDF](resume.pdf)  
+> [timhanus@gmail.com](timhanus@gmail.com)
+> [http://trh.io/](http://trh.io)
+> 512.468.8273
 
-(512) 468-8273
-
-Professional Summary
---------------------
-A dedicated leader with the technical skills and business acumen to communicate effectively with clients, developers and business stakehodlers.  A pressure player with the drive to think deeply about complex business and technical challenges to find innovative solutions.  Over nine years of experience leading development teams to deliver quality software under tight deadlines and budget constraints.  A pragmatic software developer with over sixteen years of experience with web technology.  
-
-EXPERIENCE
----------------
-
-#### Adrevolution
-##### Vice President of Technology (01/2011 - Present)
-
-*(Previously: Director of Software Development, Manager of Software Development)*
-
-
-#### Health Care Connect, Inc
-##### Founder, CTO (04/2009 – 12/2010)
-*Provided strategic direction and technical leadership for a start-up focused on health care software.  Led  the company through concept, prototype and seed-round funding to finished product and revenue.*
-
-+ Designed and developed a highly scalable health information exchange platform able to fetch patient data from practice systems in real time.
-+ Created several modules to showcase platform including Ajax patient portal and VOIP/SMS appointment reminder service. 
-+ Designed system to allow for easy integration with multiple back office medical packages.
-+ On site visits with both clients and investors to explain, in plain language, the capabilities and potential of the platform.  
-+ Worked with clients to understand their problems in order to better communicate and provide value.  
-
-
-#### Bell Microproducts, Inc
-##### Application Development Manager (02/2006 – 02/2010)
-*Directed all software development and maintenance for US and Canada divisions of Fortune 500 company.  Led a team of employees and contractors to maintain and develop multiple software solutions.  Worked closely with VP and C-Level management and end users to understand and solve problems. Communicated technical hurdles and status to stakeholders.*
-
-+ Led development and maintenance for multiple custom software solutions: 4 e-commerce sites, CRM/Sales Tool, ERP Package, warehouse management systems, and EDI platform.  
-+ Built a cohesive team by bringing together 11 developers in 5 different cities with 8 product managers in 4 different cities and dozens of end-user stakeholders.  Reported Director of IT and CIO in a different state.
-+ Responsible for all phases of software development including requirements gathering, planning, resource management, quality assurance and post-installation support. 
-+ Led initiatives for defect/request tracking, strict change control, increased support responsiveness, and comprehensive hardware and software monitoring.   
-+ Honors: Employee of the Quarter (Q4 2007), President's Club (2008)
-
-#### Tech-X, Inc
-##### CRM Application Architect (01/2004 – 02/2006)
-
-*Technical lead for a team of 4 programmers.  Served as a primary point of contact for largest 
-client.  Balanced short term customer needs with long term product goals and maintainability.*
-
-+ Relentlessly tracked and invoiced the team's billable hours.  Devoted a large amount of time each week to finding and plugging profit leaks.   
-+ Led system administration task force to standardize hardware, software and network best practices across customer base.
-+ Built several projects from the ground up including an internet portal offering, a complex pricing engine and a data warehouse/business intellegance system.
-
-##### Enterprise Resource Planning Programmer (01/2000 – 01/2004)
-##### Level I Programmer (08/1997 – 01/2000)
-
-
-
-SKILLS
 ------
-- Languages
-	- Python, PHP, Perl, Javascript, HTML, CSS, Jinja2, XML, Java, Clojure, C#, Ruby, C++, C
 
-- Frameworks
-	- Pyramid (pylons), Django, AngularJS, jQuery, YUI, CodeIgnitor, Catalyst (perl), Yii, Rails
+### Profile {#profile}
+A high performing leader with the drive, technical skills and business acumen to solve complex organizational and technical problems.  A pragmatic software developer specializing in high performance, distributed systems.   
 
-- Concepts
-	- OOP, Design Patterns, Web Services (SOAP/REST), AJAX, Security best practices, Revision control, Agile Development, Sarbanes-Oxley (SOX),  PCI Compliance, Load Balancing and High Availability
+------
 
-- Software
-	- Mercurial, Subversion, CVS, Apache, MySQL, Bugzilla, Endeca, Trustedlink (EDI), HA-Linux, ActiveMQ, Eclipse IDE, Visual Studio 2010, Drupal, Payflow, Authorize.Net
+### Technical {#technical}
 
-- Platforms
-	- Linux, Mac OSX,  AIX, Windows, Amazon EC2, Heroku
+* Languages
+	1. Python
+	1. PHP
+	1. Javascript
+	1. Go
+	1. Java
+	1. C#
+	1. Perl
+	1. HTML/CSS
+	1. Jinja2
+	1. XML
+	1. Clojure
+	1. Ruby
+	1. C/C++
 
-EDUCATION
----------
-Texas Tech University, College of Engineering (1999, Work towards B.S. In Computer Science)
-Austin Community College (2000-2002, Work towards B.S. In Computer Science)
+* Libraries
+	1. Pyramid
+	1. Django 
+	1. jQuery
+	1. Ømq
+	1. SQLAlchemy
+	1. gevent
+	1. celery
+	1. mrjob
+	1. tornado
+
+* Software
+	1. MySQL
+	1. MongoDB
+	1. Memcached
+	1. RabbitMQ
+	1. ActiveMQ
+	1. Hadoop
+	1. Git
+	1. Apache
+	1. Nagios
+	1. Linux
+	1. Mac OS X
+	1. AIX
+
+
+------
+
+### Experience {#experience}
+
+AdRevolution (acquired by Tactara 2012)
+: *Vice President of Technology*
+  __2013-__
+
+  Planned and executed major technology pivot during corporate re-organization.  Reduced overall captial and operating expenses while maintaining or improving team responsiveness, performance and functionality. Designed and implemented software changes that would grow profits by 30%.
+
+  	- Coordinated data center operations in addition to existing development responsibilities.
+  	- Consolidated assets and software into a single data center
+  	- Streamlined critical software projects to reduce run time from 6 hours to 1 hour.
+  	- Identified and eliminated wasteful business processes in efforts to simplify the environment.
+
+
+: *Director, Software Development* 
+  __2012-2013__
+
+  Responsible for post-acquisition system consolidation and integration efforts.  Championed cultural change to create a more integrated and agile working environment.  Led intense development and system engineering efforts to develop features and improve performance under quickly changing market conditions.
+
+  	- Oversaw integration of Tactara's Windows/C# environment with AdRevolution's Linux/Python environment
+  	- Initiated cross training efforts between AdRevolution and Tactara technical staff.
+  	- Increased system throughput 10x over the course of 3 weeks on a tight budget.
+  	- Led fast-moving R&D team on several high-impact, high-visibility projects.
+
+
+: *Sr. Manager, Software Development* 
+  __2011-2012__
+
+  Implemented disciplined software development processes and stabilized software.  Campaigned for and led requirements gathering and development for next generation architecture.  Grew the development team from two to eight.
+
+	- Implmented strict version control, deployment proceedures, code review and QA processes.
+    - Led development of a new SaaS/API product offering, which became a major revenue center.
+    - Developed systems to move from daily to realtime report on key performance indicators.
+    - Smoothly migrated key components from PHP to Python, resulting in 10x-100x speed improvement.
+
+
+Health Care Connect
+: *Founder, CTO* 
+  __2009-2011__
+
+  Provided strategic direction and technical leadership for a start-up focused on health care software.  Led the company through concept, prototype and seed-round funding to finished product and revenue.
+
+	- Developed software platform to fetch patient data from practice servers in real time.
+	- Created Patient Portal and Appointment Reminder service to showcase platform.
+	- Met with doctors, patients, and investors to explore the potential of the platform.  
+	- Executed pilot launch of platform at 5 small ophthalmology practices.
+
+
+
+Bell Microproducts
+: *Application Development Manager*
+  __2006–2010__
+
+  Directed all software development for US and Canada divisions of Fortune 500 company.  Led a team of employees and contractors to maintain and develop the several interlinked software solutions.  Worked closely with upper management and end users to understand problems and drive solutions.
+
+	- Responsible for all phases of software development life cycle.
+	- Led Development on 4 websites, CRM/ERP tools, warehouse management system and EDI platform.  
+	- Coordinated efforts between 12 developers and 8 product managers in 5 different cities
+	- Responsible for all phases of software development life cycle.
+	- Worked with auditors to ensure Sarbanes-Oxley and PCI compliance.
+	- Honors: Employee of the Quarter (Q4 2007), President's Club (2008)
+
+
+Tech-X
+: *CRM Application Architect* 
+  __2004-2006__
+
+  Technical lead for a team of 4 programmers.  Served as a primary point of contact for largest 
+  client.  Balanced short term customer needs with long term product goals and maintainability.
+
+	- Tracked and invoiced the team's billable hours.  Found and stopped profit leaks and ineffeciencies.   
+	- Led task force to standardize hardware, software and network best practices across customer base.
+	- Designed a internet storefront product, a pricing engine and a business intellegence solution.
+
+: *ERP Programmer* 
+  __2000-2004__
+
+: *Level I Programmer* 
+  __1997-2000__
+
+
+------
+
+### Footer {#footer}
+
+Tim Hanus -- [timhanus@gmail.com](timhanus@gmail.com) -- 512.468.8273

@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<title>Tim Hanus | Director of Software Development</title>
+<style type="text/css">
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary { display:block; }
+audio, canvas, video {
+  display:inline-block;
+  *display:inline;
+  *zoom:1;
+}
+audio:not([controls]) { display:none; }
+[hidden] { display:none; }
+html {
+  font-size:100%;
+  -webkit-text-size-adjust:100%;
+  -ms-text-size-adjust:100%;
+}
+html, button, input, select, textarea { font-family:sans-serif; }
+body { margin:0; }
+a:focus { outline:thin dotted; }
+a:hover, a:active { outline:0; }
+h1 {
+  font-size:2em;
+  margin:0.67em 0;
+}
+h2 {
+  font-size:1.5em;
+  margin:0.83em 0;
+}
+h3 {
+  font-size:1.17em;
+  margin:1em 0;
+}
+h4 {
+  font-size:1em;
+  margin:1.33em 0;
+}
+h5 {
+  font-size:0.83em;
+  margin:1.67em 0;
+}
+h6 {
+  font-size:0.75em;
+  margin:2.33em 0;
+}
+abbr[title] { border-bottom:1px dotted; }
+b, strong { font-weight:bold; }
+blockquote { margin:1em 40px; }
+dfn { font-style:italic; }
+mark {
+  background:#ffff00;
+  color:#000000;
+}
+p, pre { margin:1em 0; }
+pre, code, kbd, samp {
+  font-family:monospace, serif;
+  _font-family:'courier new', monospace;
+  font-size:1em;
+}
+pre {
+  white-space:pre;
+  white-space:pre-wrap;
+  word-wrap:break-word;
+}
+q { quotes:none; }
+q:before, q:after {
+  content:'';
+  content:none;
+}
+small { font-size:75%; }
+sub, sup {
+  font-size:75%;
+  line-height:0;
+  position:relative;
+  vertical-align:baseline;
+}
+sup { top:-0.5em; }
+sub { bottom:-0.25em; }
+dl, menu, ol, ul { margin:1em 0; }
+dd { margin:0 0 0 40px; }
+menu, ol, ul { padding:0 0 0 40px; }
+nav ul, nav ol {
+  list-style:none;
+  list-style-image:none;
+}
+img {
+  border:0;
+  -ms-interpolation-mode:bicubic;
+}
+svg:not(:root) { overflow:hidden; }
+figure { margin:0; }
+form { margin:0; }
+fieldset {
+  border:1px solid #c0c0c0;
+  margin:0 2px;
+  padding:0.35em 0.625em 0.75em;
+}
+legend {
+  border:0;
+  padding:0;
+  white-space:normal;
+  *margin-left:-7px;
+}
+button, input, select, textarea {
+  font-size:100%;
+  margin:0;
+  vertical-align:baseline;
+  *vertical-align:middle;
+}
+button, input { line-height:normal; }
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+  cursor:pointer;
+  -webkit-appearance:button;
+  *overflow:visible;
+}
+button[disabled], input[disabled] { cursor:default; }
+input[type="checkbox"], input[type="radio"] {
+  box-sizing:border-box;
+  padding:0;
+  *height:13px;
+  *width:13px;
+}
+input[type="search"] {
+  -webkit-appearance:textfield;
+  -moz-box-sizing:content-box;
+  -webkit-box-sizing:content-box;
+  box-sizing:content-box;
+}
+input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-cancel-button { -webkit-appearance:none; }
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border:0;
+  padding:0;
+}
+textarea {
+  overflow:auto;
+  vertical-align:top;
+}
+table {
+  border-collapse:collapse;
+  border-spacing:0;
+}
+
+body.pdf { color:black; }
+body.pdf a {
+  text-decoration:none;
+  color:black;
+}
+body.pdf .container {
+  width:1000px;
+  margin:0 auto;
+  padding:0;
+  background:none;
+  border:none;
+  border-width:8px 0 2px 0;
+  text-align:left;
+}
+body.pdf .resume {
+  position:relative;
+  padding:40px 80px;
+}
+body.pdf a[href$='.pdf'] { display:none; }
+body.pdf h1 {
+  letter-spacing:0;
+  margin-top:0;
+  font-size:48px;
+  text-transform:uppercase;
+  font-weight:normal;
+}
+body.pdf h2 {
+  letter-spacing:0;
+  text-transform:uppercase;
+  font-style:italic;
+  font-weight:normal;
+}
+body.pdf h3 {
+  float:left;
+  width:16%;
+  font-style:normal;
+}
+body.pdf h3+p {
+  float:left;
+  width:84%;
+}
+body.pdf blockquote {
+  top:10px;
+  right:50px;
+  position:absolute;
+}
+body.pdf ul li {
+  width:28%;
+  float:left;
+}
+body.pdf ul dl {
+  margin:0;
+  padding:0.3em 0 0;
+}
+body.pdf ul dl dt {
+  font-size:122%;
+  font-weight:normal;
+  margin:0 0 .75em;
+}
+body.pdf ul dl dd { padding:0 4em 0 0; }
+body.pdf ol {
+  float:left;
+  width:84%;
+  margin:.7em 0 0;
+}
+body.pdf ol li {
+  width:33%;
+  margin:0;
+}
+body.pdf ol li:nth-child(3n) { width:34%; }
+body.pdf ol li:nth-child(1), body.pdf ol li:nth-child(2), body.pdf ol li:nth-child(3) { border-top:none; }
+body.pdf dl dd ul li { width:90%; }
+body.pdf dl strong {
+  float:right;
+  margin-top:-2em;
+}
+body.pdf dl em {
+  font-size:130%;
+  font-style:normal;
+}
+body.pdf dl dt { padding-top:2.2em; }
+body.pdf dl dt:nth-of-type(3) { padding-top:8em; }
+body.pdf dl dt:nth-of-type(1) { padding-top:0.5em; }
+
+.clearfix { zoom:1; }
+.clearfix:after {
+  display:block;
+  visibility:hidden;
+  height:0;
+  clear:both;
+  content:".";
+}
+body {
+  font-family:'Hoefler Text', Times New Roman, Times, serif;
+  color:#444444;
+}
+h1, h2, h3, h4, ul dl dt { font-family:Futura, "Century Gothic", AppleGothic, sans-serif; }
+.container {
+  margin:0 auto;
+  padding:0;
+  background:#ffffff;
+  border:solid #666666;
+  border-width:8px 0 2px 0;
+  text-align:left;
+}
+.resume {
+  position:relative;
+  padding:10px 20px;
+}
+a { color:#990003; }
+a[href$='.pdf'] {
+  display:inline-block;
+  background:#666666;
+  color:white;
+  padding:6px 12px;
+  margin-bottom:6px;
+  text-decoration:none;
+}
+blockquote {
+  margin:0;
+  padding:0;
+  line-height:1.4em;
+  display:block;
+}
+blockquote a { display:block; }
+hr {
+  display:block;
+  position:relative;
+  padding:0;
+  margin:18px auto;
+  width:100%;
+  clear:both;
+  border:none;
+  border-top:1px solid #cccccc;
+  font-size:1px;
+  line-height:0;
+  overflow:visible;
+  page-break-after:avoid;
+}
+h1 {
+  margin:0;
+  padding:0;
+  font-size:36px;
+  letter-spacing:-1px;
+  font-weight:normal;
+}
+h2 {
+  margin:0;
+  padding:0;
+  font-size:18px;
+  font-style:italic;
+  letter-spacing:-1px;
+  font-weight:normal;
+}
+h3 {
+  margin:0;
+  padding:0 0 .5em;
+  font-size:150%;
+  font-style:italic;
+  font-weight:normal;
+}
+h3+p {
+  margin:.6em 0 16px;
+  padding:0;
+  display:block;
+  font-size:104%;
+  line-height:24px;
+}
+ul {
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+ul li {
+  margin:0;
+  padding:0;
+}
+ul dl {
+  margin:.3em 0 0;
+  padding:0;
+  width:100%;
+}
+ul dl dt { font-size:100%; }
+ul dl dd {
+  margin:0 0 1em;
+  padding:0 2em 0 0;
+  font-size:.8em;
+  line-height:1.5em;
+}
+ol {
+  margin:0;
+  padding:0 0 .75em;
+  width:84%;
+  display:inline-block;
+}
+ol li {
+  margin:0 0 0 1em;
+  padding:0;
+  width:100%;
+  float:left;
+  list-style:none;
+  line-height:24px;
+  font-size:14px;
+}
+ol li:nth-child(1) { border-top:none; }
+ul li p {
+  font-size:122%;
+  font-family:Futura, "Century Gothic", AppleGothic, sans-serif;
+  margin:0;
+  padding:0;
+}
+ul li ol li { width:50% !important; }
+dl {
+  display:inline-block;
+  width:75%;
+  margin:0;
+  padding:0;
+}
+dl dt {
+  border-bottom:solid #cccccc 1px;
+  margin:0;
+  padding:1em 0em 0em;
+  font-size:140%;
+  clear:both;
+}
+dl dt:first-child { padding:0em 0em 0em; }
+dl dd {
+  margin:0 0 1.5em;
+  padding:0;
+  font-size:80%;
+  line-height:1.4em;
+  clear:both;
+}
+dl dd ul {
+  list-style:square;
+  display:block;
+  clear:both;
+  margin:-1em 2.5em 1em;
+  padding:0em 0em 2.5em;
+}
+dl dd ul li {
+  width:90%;
+  clear:both;
+}
+dl dd p:first-child {
+  margin:0em;
+  padding:1em 0em 1.2em;
+}
+dl dd p {
+  padding:0em;
+  margin:-1em 0.6em 1.5em;
+}
+dl strong { display:block; }
+dl p em {
+  display:block;
+  font-size:130%;
+  margin:.5em .5em .5em;
+  font-style:bold;
+}
+#footer { display:none; }
+#footer + p {
+  width:100%;
+  font-size:11px;
+  text-align:center;
+}
+
+@media screen and (min-width: 15em) {
+}
+@media screen and (min-width: 30em) {
+}
+@media screen and (min-width: 37.5em) {
+  body { padding:2em 0; }
+  blockquote {
+    top:10px;
+    right:50px;
+    position:absolute;
+  }
+  h1 { margin-top:.5em; }
+  ol { margin:0 0 0 1em; }
+  ol li {
+    width:50%;
+    margin:0;
+  }
+  ol li:nth-child(1), ol li:nth-child(2) { border-top:none; }
+}
+@media screen and (min-width: 57em) {
+  .container { width:912px; }
+  .resume {
+    position:relative;
+    padding:40px 50px;
+  }
+  blockquote {
+    top:5px;
+    right:50px;
+    position:absolute;
+  }
+  h1 {
+    margin-top:0;
+    font-size:48px;
+    text-transform:uppercase;
+    letter-spacing:3px;
+    font-weight:normal;
+  }
+  h2 {
+    text-transform:uppercase;
+    font-style:italic;
+    letter-spacing:2px;
+    font-weight:normal;
+  }
+  h3 {
+    float:left;
+    width:16%;
+  }
+  h3+p {
+    float:left;
+    width:84%;
+  }
+  ul li {
+    width:28%;
+    float:left;
+  }
+  ul dl dt {
+    font-size:122%;
+    font-weight:normal;
+    margin-bottom:.75em;
+  }
+  ul dl dd { padding:0 4em 0 0; }
+  ol {
+    float:left;
+    width:84%;
+    margin:.6em 0 0;
+  }
+  ol li {
+    width:33%;
+    margin:0;
+  }
+  ol li:nth-child(3n) { width:34%; }
+  ol li:nth-child(1), ol li:nth-child(2), ol li:nth-child(3) { border-top:none; }
+  dl { margin:.5em 0 0; }
+  dl strong {
+    float:right;
+    margin-top:-2em;
+  }
+  dl em {
+    font-size:130%;
+    font-style:normal;
+  }
+}
+@media screen and (min-width: 118em) {
+}
+
+</style>
+</head>
+
+<body class="">
+
+<div class="container">
+    <div class="resume">
+        <h1>Tim Hanus</h1>
+
+<h2>Director of Software Development</h2>
+
+<blockquote>
+  <p><a href="resume.pdf">Download PDF</a><br />
+  <a href="timhanus@gmail.com">timhanus@gmail.com</a>
+  <a href="http://trh.io">http://trh.io/</a>
+  512.468.8273</p>
+</blockquote>
+
+<hr />
+
+<h3 id="profile">Profile</h3>
+
+<p>A high performing leader with the drive, technical skills and business acumen to solve complex organizational and technical problems.  A pragmatic software developer specializing in high performance, distributed systems.</p>
+
+<hr />
+
+<h3 id="technical">Technical</h3>
+
+<ul>
+<li><p>Languages</p>
+
+<ol>
+<li>Python</li>
+<li>PHP</li>
+<li>Javascript</li>
+<li>Go</li>
+<li>Java</li>
+<li>C#</li>
+<li>Perl</li>
+<li>HTML/CSS</li>
+<li>Jinja2</li>
+<li>XML</li>
+<li>Clojure</li>
+<li>Ruby</li>
+<li>C/C++</li>
+</ol></li>
+<li><p>Libraries</p>
+
+<ol>
+<li>Pyramid</li>
+<li>Django </li>
+<li>jQuery</li>
+<li>Ømq</li>
+<li>SQLAlchemy</li>
+<li>gevent</li>
+<li>celery</li>
+<li>mrjob</li>
+<li>tornado</li>
+</ol></li>
+<li><p>Software</p>
+
+<ol>
+<li>MySQL</li>
+<li>MongoDB</li>
+<li>Memcached</li>
+<li>RabbitMQ</li>
+<li>ActiveMQ</li>
+<li>Hadoop</li>
+<li>Git</li>
+<li>Apache</li>
+<li>Nagios</li>
+<li>Linux</li>
+<li>Mac OS X</li>
+<li>AIX</li>
+</ol></li>
+</ul>
+
+<hr />
+
+<h3 id="experience">Experience</h3>
+
+<dl>
+<dt>AdRevolution (acquired by Tactara 2012)</dt>
+<dd>
+<p><em>Vice President of Technology</em>
+<strong>2013-</strong></p>
+
+<p>Planned and executed major technology pivot during corporate re-organization.  Reduced overall captial and operating expenses while maintaining or improving team responsiveness, performance and functionality. Designed and implemented software changes that would grow profits by 30%.</p>
+
+<ul>
+<li>Coordinated data center operations in addition to existing development responsibilities.</li>
+<li>Consolidated assets and software into a single data center</li>
+<li>Streamlined critical software projects to reduce run time from 6 hours to 1 hour.</li>
+<li>Identified and eliminated wasteful business processes in efforts to simplify the environment.</li>
+</ul>
+</dd>
+
+<dd>
+<p><em>Director, Software Development</em> 
+<strong>2012-2013</strong></p>
+
+<p>Responsible for post-acquisition system consolidation and integration efforts.  Championed cultural change to create a more integrated and agile working environment.  Led intense development and system engineering efforts to develop features and improve performance under quickly changing market conditions.</p>
+
+<ul>
+<li>Oversaw integration of Tactara&#8217;s Windows/C# environment with AdRevolution&#8217;s Linux/Python environment</li>
+<li>Initiated cross training efforts between AdRevolution and Tactara technical staff.</li>
+<li>Increased system throughput 10x over the course of 3 weeks on a tight budget.</li>
+<li>Led fast-moving R&amp;D team on several high-impact, high-visibility projects.</li>
+</ul>
+</dd>
+
+<dd>
+<p><em>Sr. Manager, Software Development</em> 
+<strong>2011-2012</strong></p>
+
+<p>Implemented disciplined software development processes and stabilized software.  Campaigned for and led requirements gathering and development for next generation architecture.  Grew the development team from two to eight.</p>
+
+<ul>
+<li>Implmented strict version control, deployment proceedures, code review and QA processes.</li>
+<li>Led development of a new SaaS/API product offering, which became a major revenue center.</li>
+<li>Developed systems to move from daily to realtime report on key performance indicators.</li>
+<li>Smoothly migrated key components from PHP to Python, resulting in 10x-100x speed improvement.</li>
+</ul>
+</dd>
+
+<dt>Health Care Connect</dt>
+<dd>
+<p><em>Founder, CTO</em> 
+<strong>2009-2011</strong></p>
+
+<p>Provided strategic direction and technical leadership for a start-up focused on health care software.  Led the company through concept, prototype and seed-round funding to finished product and revenue.</p>
+
+<ul>
+<li>Developed software platform to fetch patient data from practice servers in real time.</li>
+<li>Created Patient Portal and Appointment Reminder service to showcase platform.</li>
+<li>Met with doctors, patients, and investors to explore the potential of the platform.  </li>
+<li>Executed pilot launch of platform at 5 small ophthalmology practices.</li>
+</ul>
+</dd>
+
+<dt>Bell Microproducts</dt>
+<dd>
+<p><em>Application Development Manager</em>
+<strong>2006–2010</strong></p>
+
+<p>Directed all software development for US and Canada divisions of Fortune 500 company.  Led a team of employees and contractors to maintain and develop the several interlinked software solutions.  Worked closely with upper management and end users to understand problems and drive solutions.</p>
+
+<ul>
+<li>Responsible for all phases of software development life cycle.</li>
+<li>Led Development on 4 websites, CRM/ERP tools, warehouse management system and EDI platform.  </li>
+<li>Coordinated efforts between 12 developers and 8 product managers in 5 different cities</li>
+<li>Responsible for all phases of software development life cycle.</li>
+<li>Worked with auditors to ensure Sarbanes-Oxley and PCI compliance.</li>
+<li>Honors: Employee of the Quarter (Q4&#160;2007), President&#8217;s Club (2008)</li>
+</ul>
+</dd>
+
+<dt>Tech-X</dt>
+<dd>
+<p><em>CRM Application Architect</em> 
+<strong>2004-2006</strong></p>
+
+<p>Technical lead for a team of 4 programmers.  Served as a primary point of contact for largest 
+client.  Balanced short term customer needs with long term product goals and maintainability.</p>
+
+<ul>
+<li>Tracked and invoiced the team&#8217;s billable hours.  Found and stopped profit leaks and ineffeciencies.   </li>
+<li>Led task force to standardize hardware, software and network best practices across customer base.</li>
+<li>Designed a internet storefront product, a pricing engine and a business intellegence solution.</li>
+</ul>
+</dd>
+
+<dd>
+<p><em>ERP Programmer</em> 
+<strong>2000-2004</strong></p>
+</dd>
+
+<dd>
+<p><em>Level I Programmer</em> 
+<strong>1997-2000</strong></p>
+</dd>
+</dl>
+
+<hr />
+
+<h3 id="footer">Footer</h3>
+
+<p>Tim Hanus &#8212; <a href="timhanus@gmail.com">timhanus@gmail.com</a> &#8212; 512.468.8273</p>
+
+    </div>
+</div>
+
+</body>
+</html>
