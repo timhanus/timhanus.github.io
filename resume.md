@@ -62,23 +62,23 @@ A high performing leader with the drive, technical skills and business acumen to
 
 AdRevolution (acquired by Tactara 2012)
 : *Vice President of Technology*
-  __2013-__
+ __2013-Present__
 
-  Planned and executed major technology pivot during corporate re-organization.  Reduced overall captial and operating expenses while maintaining or improving team responsiveness, performance and functionality. Designed and implemented software changes that would grow profits by 30%.
+  Planned and executed major technology pivot during corporate reorganization.  Reduced overall captial and operating expenses while maintaining team responsiveness, performance and functionality. Designed and implemented software changes that would increase by 30%.
 
-  	- Coordinated data center operations in addition to existing development responsibilities.
+  	- Coordinated data center operations in addition to existing responsibilities as Director of Software Development.  
   	- Consolidated assets and software into a single data center
   	- Streamlined critical software projects to reduce run time from 6 hours to 1 hour.
-  	- Identified and eliminated wasteful business processes in efforts to simplify the environment.
+  	- Identified and eliminated wasteful business processes to simplify the environment.
 
 
 : *Director, Software Development* 
   __2012-2013__
 
-  Responsible for post-acquisition system consolidation and integration efforts.  Championed cultural change to create a more integrated and agile working environment.  Led intense development and system engineering efforts to develop features and improve performance under quickly changing market conditions.
+  Responsible for post-acquisition system consolidation and integration.  Championed cultural change to create a more integrated and agile working environment.  Led development and system engineering efforts to develop features and improve performance under quickly changing market conditions.
 
   	- Oversaw integration of Tactara's Windows/C# environment with AdRevolution's Linux/Python environment
-  	- Initiated cross training efforts between AdRevolution and Tactara technical staff.
+  	- Implemented cross training efforts between AdRevolution and Tactara technical staff.
   	- Increased system throughput 10x over the course of 3 weeks on a tight budget.
   	- Led fast-moving R&D team on several high-impact, high-visibility projects.
 
@@ -103,7 +103,7 @@ Health Care Connect
 	- Developed software platform to fetch patient data from practice servers in real time.
 	- Created Patient Portal and Appointment Reminder service to showcase platform.
 	- Met with doctors, patients, and investors to explore the potential of the platform.  
-	- Executed pilot launch of platform at 5 small ophthalmology practices.
+	- Executed pilot launch of platform at 5 ophthalmology practices.
 
 
 
@@ -130,7 +130,7 @@ Tech-X
 
 	- Tracked and invoiced the team's billable hours.  Found and stopped profit leaks and ineffeciencies.   
 	- Led task force to standardize hardware, software and network best practices across customer base.
-	- Designed a internet storefront product, a pricing engine and a business intellegence solution.
+	- Designed an internet storefront product, a pricing engine and a business intellegence solution.
 
 : *ERP Programmer* 
   __2000-2004__
