@@ -64,7 +64,7 @@ AdRevolution (acquired by Tactara 2012)
 : *Vice President of Technology*
  __2013-Present__
 
-  Planned and executed major technology pivot during corporate reorganization.  Reduced overall captial and operating expenses while maintaining team responsiveness, performance and functionality. Designed and implemented software changes that would increase by 30%.
+  Planned and executed major technology pivot during corporate reorganization.  Reduced overall captial and operating expenses while maintaining team responsiveness, performance and functionality. Designed and implemented software changes that would increase revenue by 30%.
 
   	- Coordinated data center operations in addition to existing responsibilities as Director of Software Development.  
   	- Consolidated assets and software into a single data center
