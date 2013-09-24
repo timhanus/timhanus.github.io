@@ -150,7 +150,7 @@ body.pdf a {
 }
 body.pdf .container {
   width:1000px;
-  margin:0 auto;
+  margin:15 auto;
   padding:0;
   background:none;
   border:none;
@@ -176,13 +176,12 @@ body.pdf h2 {
   font-weight:normal;
 }
 body.pdf h3 {
-  float:left;
-  width:16%;
   font-style:normal;
+  font-size:140%;
 }
 body.pdf h3+p {
-  float:left;
-  width:84%;
+  width:95%;
+  clear:both;
 }
 body.pdf blockquote {
   top:10px;
@@ -190,7 +189,7 @@ body.pdf blockquote {
   position:absolute;
 }
 body.pdf ul li {
-  width:28%;
+  width:33%;
   float:left;
 }
 body.pdf ul dl {
@@ -214,6 +213,10 @@ body.pdf ol li {
 }
 body.pdf ol li:nth-child(3n) { width:34%; }
 body.pdf ol li:nth-child(1), body.pdf ol li:nth-child(2), body.pdf ol li:nth-child(3) { border-top:none; }
+body.pdf dl {
+  font-size:115%;
+  width:94%;
+}
 body.pdf dl dd p { padding:0.5em 0em 0em; }
 body.pdf dl dd ul li { width:90%; }
 body.pdf dl strong {
@@ -224,8 +227,10 @@ body.pdf dl em {
   font-size:130%;
   font-style:normal;
 }
-body.pdf dl dt { padding-top:2.2em; }
-body.pdf dl dt:nth-of-type(3) { padding-top:8em; }
+body.pdf dl dt {
+  padding-top:2.2em;
+  font-size:105%;
+}
 body.pdf dl dt:nth-of-type(1) { padding-top:0.5em; }
 
 .clearfix { zoom:1; }
