@@ -1,60 +1,62 @@
 # Tim Hanus
-## Software Developer and Technical Leader
+## Software Leadership and Development
 
 > [Download PDF](resume.pdf)  
 > [timhanus@gmail.com](timhanus@gmail.com)
-> [http://trh.io/](http://trh.io)
+> [http://trh.io](http://trh.io)
 > 512.468.8273
 
 ------
 
 ### Profile {#profile}
-A dedicated leader with over nine years of experience leading software development teams in fast-paced and complex business environments. Excellent interpersonal, motivational, and technical skills.  A pragmatic software developer specializing in high performance, distributed systems.  
+A dedicated leader with over nine years of experience driving software development teams in fast-paced and complex business environments. Excellent interpersonal, motivational, and technical skills.  A pragmatic software developer specializing in high performance, distributed systems.  
 
 ------
 
-### Technical {#technical}
+### Skills {#skills}
+
+* People
+    1. Agile/Lean Leadership
+    1. Requirements Analysis
+    1. Kanban / Scrum 
+    1. User Stories
+    1. Test Driven Development
+    1. Product Management
+    1. Recruiting / Hiring
+    1. Mentoring
+    1. Research and Development
+    1. Budget Management
+    1. Conflict Resolution 
+
 
 * Languages
 	1. Python
-	1. PHP:
+	1. PHP
 	1. Javascript
 	1. Go
+	1. Perl
 	1. Java
 	1. C#
 	1. Perl
 	1. HTML/CSS
-	1. Jinja2
-	1. XML
 	1. Clojure
 	1. Ruby
 	1. C/C++
 
-* Libraries
-	1. Pyramid
-	1. Django 
-	1. jQuery
-	1. Ømq
-	1. SQLAlchemy
-	1. gevent
-	1. celery
-	1. mrjob
-	1. tornado
 
-* Software
+* Software 
+	1. Linux
+	1. Amazon EC2
+	1. Jira/GreenHoper
 	1. MySQL
 	1. MongoDB
 	1. Memcached
 	1. RabbitMQ
-	1. ActiveMQ
 	1. Hadoop
 	1. Git
-	1. SVN
 	1. Apache
 	1. Nagios
-	1. Linux
 	1. Mac OS X
-	1. AIX
 
 
 ------
@@ -112,7 +114,7 @@ Bell Microproducts
 : *Application Development Manager*
   __2006–2010__
 
-  Managed all software development for US and Canada divisions, with some oversight of UK/European integration.  Led a team of employees and contractors to maintain and develop several inter-dependent software solutions.  Worked closely with upper management and end users to understand problems and drive solutions.
+  Managed all software development for US and Canada divisions, with some oversight of UK/European integration.  Led a team of employees and contractors to maintain and develop several software solutions.  Worked closely with upper management and end users to understand problems and drive solutions.
 
 	- Responsible for all phases of software development life cycle.
 	- Led Development on 4 websites, CRM/ERP tools, warehouse management system and EDI platform.  
